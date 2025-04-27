@@ -1,0 +1,120 @@
+/*font family*/
+
+    @font-face{
+    src: url();
+    font-family: ;
+}
+
+/*font family*/
+
+/*Common css Start*/
+
+:root{
+    --popr:"";
+    --bl: ;
+}
+
+body{
+    
+}
+
+/*Common css End*/
+
+.item{
+    padding: 10px 0;
+}
+
+.btn{
+    margin: 5px 5px;
+}
+
+/*item.2*/
+
+/*Item 16*/
+
+#sdd{
+    display: none;
+}
+
+/*Item 17*/
+
+#animations{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+
+/*Item 18*/
+
+.ani_p{
+    padding: 8% 0 13% 0;
+}
+
+#animate_m{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+
+/*Item 19*/
+
+.ani_rv_p{
+    padding-bottom: 16%;
+}
+
+#animate_rv{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+
+/*Item 20*/
+
+.ani_pd_p{
+    padding-bottom: 9%;
+}
+
+#animate_pd{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+
+/*Item 21*/
+
+#animate_qf{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+
+/*Item 22*/
+
+#animate_qfm{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+
+/*Item 23*/
+
+#stopm, #stopm_h1 {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#stopm{
+   padding: 50px;
+   display: none;
+}

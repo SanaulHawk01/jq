@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQ</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.png">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="item">
+        <h2>1.alert</h2>
+        <button type="button" class="btn btn-dark" id="a_btn">alert</button>
+      </div>
+
+      <div class="item">
+
+        <h2>2.show, hide and toggle</h2>
+
+        <button type="button" class="btn btn-dark" id="show">Show</button>
+
+        <button type="button" class="btn btn-dark" id="hide">Hide</button>
+
+        <button type="button" class="btn btn-dark" id="toggle">Toggle</button>
+
+        <h2 id="sdt">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>3.Slide </h2>
+
+        <button type="button" class="btn btn-dark" id="s_up">Up</button>
+
+        <h2 id="slide">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>4.Click Events </h2>
+
+        <h2 id="click">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>5.Double click Events </h2>
+
+        <h2 id="dblclick">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>6.Mouse enter Events </h2>
+
+        <h2 id="mouseenter">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>7.Mouse leave Events </h2>
+
+        <h2 id="mouseleave">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>8.Mouse down Events </h2>
+
+        <h2 id="mousedown">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>9.Mouse up Events </h2>
+
+        <h2 id="mouseup">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>10.Hover Events (old JQ code working) </h2>
+
+        <h2 id="hover">There are two versions of jQuery available for downloading</h2>
+
+      </div>
+
+      <div class="item">
+
+        <h2>11.Focus and Blur Events </h2>
+
+        <div class="mb-3">Name: <input type="text" class="focus" name="full name"></div>
+
+        <div>Email: <input type="email" class="focus" name="email"></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>12.FadeIn </h2>
+
+        <button class="btn btn-dark" id="fdi_btn">In</button>
+
+        <div id="fadein" style="width:80px;height:80px;display:none;background-color:red;"></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>13.Fadeout </h2>
+
+        <button class="btn btn-dark" id="fdo_btn">Out</button>
+
+        <div id="fadeout" style="width:80px;height:80px;background-color:red;"></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>14.Fadetoggle </h2>
+
+        <button class="btn btn-dark" id="fdt_btn">Toggle</button>
+
+        <div id="fadetoggle" style="width:80px;height:80px;background-color:red;"></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>15.Fadeto </h2>
+
+        <button class="btn btn-dark" id="fdto_btn">Fadeto</button>
+
+        <div id="fadeto" style="width:80px;height:80px;background-color:red;"></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>16.Slidedown </h2>
+
+        <div id="flip"><h2>Click Here</h2></div>
+
+        <div id="sdd"><h2>Lorem Ipsum is simply dummy text of the printing</h2></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>17.Animations </h2>
+
+        <button class="btn btn-dark" id="aim_btn">Animations</button>
+
+        <div id="animations"></div>
+
+      </div>
+
+      <div class="item ani_p">
+
+        <h2>18.Animations - Manipulate Multiple Properties </h2>
+
+        <button class="btn btn-dark" id="aim_m_btn">Animations</button>
+
+        <div id="animate_m"></div>
+
+      </div>
+
+      <div class="item ani_rv_p">
+
+        <h2>19.Animations - Using Relative Values</h2>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <button class="btn btn-dark" id="aim_rv_btn">Click double</button>
+
+        <div id="animate_rv"></div>
+
+      </div>
+
+      <div class="item ani_pd_p">
+
+        <h2>20.Animations - Using Pre-defined Values</h2>
+
+        <p>You can even specify a property's animation value as "show", "hide", or "toggle"</p>
+
+        <button class="btn btn-dark" id="aim_pd_btn">Click double</button>
+
+        <div id="animate_pd"></div>
+
+      </div>
+
+      <div class="item ani_rv_p">
+
+        <h2>21.Animations - Uses Queue Functionality</h2>
+
+        <button class="btn btn-dark" id="aim_qf_btn">Click</button>
+
+        <div id="animate_qf"></div>
+
+      </div>
+
+      <div class="item ani_rv_p">
+
+        <h2>22.Animations - Uses Queue Functionality</h2>
+
+        <p>The example below first moves the element to the right, and then increases the font size of the text:</p>
+
+        <button class="btn btn-dark" id="aim_qfm_btn">Click</button>
+
+        <div id="animate_qfm"><p>Hello</p></div>
+
+      </div>
+
+      <div class="item">
+
+        <h2>23.Stop Method</h2>
+
+        <h1 id="stopm_h1">Click Here</h1>
+
+        <div id="stopm"><p>Hello</p></div>
+
+        <button class="btn btn-dark" id="stopm_btn">Stop</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>24.Callback Functions</h2>
+
+        <h2 id="cbf">Lorem Ipsum is simply dummy text of the printing</h2>
+
+        <button class="btn btn-dark" id="cbf_btn">Hide</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>25.Callback (Fast) Functions</h2>
+
+        <h2 id="cbff">Lorem Ipsum is simply dummy text of the printing</h2>
+
+        <button class="btn btn-dark" id="cbff_btn">Hide</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>26.Chaining Method</h2>
+
+        <h2 id="cig">Lorem Ipsum is simply dummy text of the printing</h2>
+
+        <button class="btn btn-dark" id="cig_btn">Chaing color</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>27.Get Content - text() and html()</h2>
+
+        <h2 id="gcon">This is some <b>bold</b> text in a H2.</h2>
+
+        <button class="btn btn-dark" id="gcon_t_btn">Show Text</button>
+
+        <button class="btn btn-dark" id="gcon_h_btn">Show HTML</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>28.Get Content - val()</h2>
+
+        <h2>Name: <input type="text" id="gconv" value="Mickey Mouse"></h2>
+
+        <button class="btn btn-dark" id="gconv_h_btn">Show val</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>29.Set Content - text(), html(), and val()</h2>
+
+        <p>We will use the same three methods from the previous page to set content:
+
+        text() - Sets or returns the text content of selected elements
+        html() - Sets or returns the content of selected elements (including HTML markup)
+        val() - Sets or returns the value of form fields
+        The following example demonstrates how to set content with the jQuery text(), html(), and val() methods:</p>
+
+        <h2 id="sc_thv_h">I will contact you in a night.</h2>
+        <h2 id="sc_thv_te">Don't worry you are safe with me.</h2>
+
+        <h2>Information: <input type="text" id="sc_thv_v" value="phone number"></h2>
+
+        <button class="btn btn-dark" id="sc_thv_htbtn">Show Text</button>
+
+        <button class="btn btn-dark" id="sc_thv_tbtn">Show HTML</button>
+
+        <button class="btn btn-dark" id="sc_thv_vbtn">Show val</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>30.A Callback Function for text(), html(), and val()</h2>
+
+        <h2 id="cbf_thvt">This is a <b>bold</b> paragraph.</h2>
+        <h2 id="cbf_thvh">This is another <b>bold</b> paragraph.</h2>
+
+        <button class="btn btn-dark" id="cbf_thvt_btn">Show Text</button>
+
+        <button class="btn btn-dark" id="cbf_thvh_btn">Show HTML</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>31.Set Attributes - attr()</h2>
+
+        <h3><a href="https://www.facebook.com/sanaulhawk01/" id="att">MD. Sanaul Hawk</a></h3>
+
+        <button class="btn btn-dark" id="att_btn">Change href Value</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>32.Set href and title()</h2>
+
+        <h3><a href="https://www.facebook.com/sanaulhawk01/" id="att_t" title="facebook">MD. Sanaul Hawk</a></h3>
+
+        <button class="btn btn-dark" id="att_t_btn">Change href Value</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>33.Append() Method</h2>
+
+        <p class="appe_t">This is a paragraph.</p>
+
+        <p class="appe_t">This is a paragraph.</p>
+
+        <ol id="appe_ol">
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+          <li>List item 4</li>
+        </ol>
+
+        <button class="btn btn-dark" id="appe_t_btn">Append text</button>
+
+        <button class="btn btn-dark" id="appe_li_btn">Append list items</button>
+
+      </div>
+
+      <div class="item">
+
+        <h2>34.Prepend() Method</h2>
+
+        <p class="prep_t">This is a paragraph.</p>
+        
+        <p class="prep_t">This is a paragraph.</p>
+
+        <ol id="prep_ol">
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+          <li>List item 4</li>
+        </ol>
+
+        <button class="btn btn-dark" id="prep_t_btn">Append text</button>
+
+        <button class="btn btn-dark" id="prep_li_btn">Append list items</button>
+
+      </div>
+
+    </div>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
